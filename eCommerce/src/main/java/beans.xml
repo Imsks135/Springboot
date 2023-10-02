@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="smartphone" class="com.cgi.ecommerce.Smartphone">
+        <property name="brand" value="Apple "/>
+        <property name="model" value="iPhone 14 pro max"/>
+        <property name="price" value="150000.99"/>
+    </bean>
+    
+    <bean id="laptop" class="com.cgi.ecommerce.Laptop">
+        <property name="brand" value="Hp "/>
+        <property name="model" value="intel CORE i5 10TH GEN"/>
+        <property name="price" value="59999.99"/>
+    </bean>
+    
+    <bean id="electronics" class="com.cgi.ecommerce.Electronics">
+        <property name="category" value="Accessories"/>
+        <property name="price" value="89999.99"/>
+    </bean>
+</beans>
+

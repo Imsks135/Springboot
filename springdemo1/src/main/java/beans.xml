@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean id="product1" class="com.cgi.practice1.Product">
+    <property name="productName" value="Nokia4405"/>
+    <property name="productId" value="1"/>
+    </bean>
+    
+    <bean id="product2" class="com.cgi.practice1.Product">
+    <property name="productName" value="Samsung galaxyJ6"/>
+    <property name="productId" value="2"/>
+    </bean>
+    
+    <bean id="product3" class="com.cgi.practice1.Product">
+    <property name="productName" value="MI 10i"/>
+    <property name="productId" value="3"/>
+    </bean>
+    
+    <bean id="product4" class="com.cgi.practice1.Product">
+    <property name="productName" value="Iphone11"/>
+    <property name="productId" value="4"/>
+    </bean>
+    
+    <bean id="product5" class="com.cgi.practice1.Product">
+    <property name="productName" value="oneplus9R"/>
+    <property name="productId" value="5"/>
+    </bean>
+</beans>

@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="smartphone" class="com.cgi.ecommerce1.Smartphone">
+        <constructor-arg value="Oneplus "/>
+        <constructor-arg value="Nord CE lite"/>
+        <constructor-arg value="24999.99"/>
+    </bean>
+    
+    <bean id="laptop" class="com.cgi.ecommerce1.Laptop">
+        <constructor-arg value="Dell "/>
+        <constructor-arg value="XPS 15"/>
+        <constructor-arg value="59999.99"/>
+    </bean>
+    
+    <bean id="electronics" class="com.cgi.ecommerce1.Electronics">
+        <constructor-arg value="Accessories "/>
+        <constructor-arg value="49999.99"/>
+    </bean>
+</beans>

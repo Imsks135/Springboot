@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+  <bean id="CustomerBean" class="com.cgi.springlist.Customer">
+    <!-- java.util.List -->
+    <property name="lists">
+      <list>
+        <ref bean="PersonBean" />
+        <bean class="com.cgi.springlist.Person">
+          <property name="name" value="mahesh" />
+          <property name="address" value="Pune" />
+          <property name="age" value="27" />
+        </bean>
+      </list>
+    </property>
+  </bean>
+  <bean id="PersonBean" class="com.cgi.springlist.Person">
+    <property name="name" value="suresh" />
+    <property name="address" value="Maharashtra" />
+    <property name="age" value="25" />
+  </bean>
+</beans>
